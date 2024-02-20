@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION BAR */
+
+.navBar {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menuIcon {
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    margin: 5px 15px 0px 20px;
+}
+
+.utubeImage {
+    margin-right: 35px;
+}
+
+.utubeImage img {
+    height: 20px;
+    width: 90px;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.searchBar {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar input {
+    height: 40px;
+    width: 540px;
+    border: 1.5px solid black;
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.searchIcon {
+    height: 40px;
+    width: 65px;
+    border: 1.5px solid black;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.micIcon {
+    height: 40px;
+    width: 40px;
+    border: 1.5px solid black;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.otherIcon {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+
+.signIn {
+    height: 40px;
+    width: 150px;
+    font-weight: 600;
+    color: dodgerblue;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN SECTION  */
+
+
+/* side menu bar */
+
+.menuAllign {
+    display: flex;
+}
+
+.sideMenu {
+    width: 65px;
+    height: 100vh;
+    padding-top: 10px;
+}
+
+.menuSize {
+    height: 75px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuSize p {
+    font-size: 10px;
+}
+
+/* menu options */
+
+.menuOptions {
+    height: 60px;
+    display: flex;
+    padding-left: 15px;
+}
+
+.boxSize {
+    height: 35px;
+    max-width: 150px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    margin: 12px 12px 12px 0px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forVideo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* video section  */
+
+.videoSection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.videoBox {
+    height: 310px;
+    width: 325px;
+    margin-top: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+.videoBox img {
+    height: 210px;
+    width: 325px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.userLogo {
+    display: flex;
+    align-items: center;
+}
+
+.userLogo img{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin: 10px 15px 0px 5px;
+}
+
+.userLogo p {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.channel {
+    font-size: 14px;
+    margin-left: 55px;
+}
+
+.videoBox:hover {
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out
+}
